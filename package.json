@@ -1,0 +1,35 @@
+{
+  "name": "nosql",
+  "version": "1.0.0",
+  "description": "Proyecto de inyección sobre noSQL",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/edisoncast/NosqlIMaster.git"
+  },
+  "keywords": [
+    "sqli",
+    "Nosql",
+    "mongo"
+  ],
+  "author": "Jhon Edison Castro Sánchez aka pacojecs14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edisoncast/NosqlIMaster/issues"
+  },
+  "homepage": "https://github.com/edisoncast/NosqlIMaster#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.12",
+    "path": "^0.12.7",
+    "pug": "^2.0.4"
+  }
+}
